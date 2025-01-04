@@ -44,7 +44,7 @@ public class Principal {
             valorInicial = leitura.nextDouble();
 
 
-            String endereco = "https://v6.exchangerate-api.com/v6/4bd1f36289d5f1a9016fe246/latest/"+moedaInicial;
+            String endereco = "https://v6.exchangerate-api.com/v6/_API_KEY_HERE_/latest/"+moedaInicial;
 
             HttpClient client = HttpClient.newHttpClient();
 
